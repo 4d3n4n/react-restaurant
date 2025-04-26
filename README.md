@@ -3,7 +3,6 @@
 ![React](https://img.shields.io/badge/Built%20with-React-61DAFB.svg?logo=react&logoColor=white)
 ![Multilingual](https://img.shields.io/badge/Multilingual-FR%20%7C%20EN%20%7C%20JA-4caf50)
 ![Dark Mode](https://img.shields.io/badge/Dark%20Mode-Enabled-000000)
-![License](https://img.shields.io/badge/License-MIT-blue.svg)
 
 
 ## Présentation
