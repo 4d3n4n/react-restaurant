@@ -1,70 +1,84 @@
-# Getting Started with Create React App
+# 🍣 React Restaurant Showcase
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![React](https://img.shields.io/badge/Built%20with-React-61DAFB.svg?logo=react&logoColor=white)
+![Multilingual](https://img.shields.io/badge/Multilingual-FR%20%7C%20EN%20%7C%20JA-4caf50)
+![Dark Mode](https://img.shields.io/badge/Dark%20Mode-Enabled-000000)
+![License](https://img.shields.io/badge/License-MIT-blue.svg)
 
-## Available Scripts
 
-In the project directory, you can run:
+## Présentation
 
-### `npm start`
+**React Restaurant Showcase** est un site vitrine développé en **React.js**, conçu spécialement pour les **restaurants** qui souhaitent présenter leur activité de manière élégante, multilingue et moderne.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+La version 1 (V1) du projet propose une navigation simple et fluide avec plusieurs pages dédiées :
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## Pages disponibles
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 🏠 Home
+- **Hero Banner** avec bouton de réservation (redirige vers une plateforme externe de réservation).
+- **Sections marketing** pour valoriser l'expérience client.
+- **Section CTA** (Call to Action) incitant l'utilisateur à réserver.
+- **Section Adresse** avec carte interactive et bouton "Itinéraire" ouvrant Google Maps avec la position actuelle de l'utilisateur vers le restaurant.
+- **Section Blog** pour partager des actualités, articles ou événements.
 
-### `npm run build`
+### 🧑‍🍳 About Us
+- **Histoire du restaurant** et présentation de sa philosophie.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### ✉️ Contact
+- **Carte interactive**.
+- **Adresse** détaillée avec accès facilité et bouton "Itinéraire" Google Maps.
+- **Formulaire de contact** pour envoyer des messages directement au restaurant.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 🍽 Notre Carte
+- **Liste des plats**, **entrées**, **boissons**, **desserts**.
+- Chaque item inclut :
+  - Description
+  - Prix (en yen japonais)
+  - Ingrédients
+  - Allergènes
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 📢 Annonces
+- **Section dédiée aux annonces** du restaurant : offres d’emploi, recrutements, événements spéciaux, etc.
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Fonctionnalités techniques
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- 🌙 **Mode sombre (Dark Mode)** intégré pour un meilleur confort visuel.
+- 🌐 **Site multilingue** : disponible en **Français**, **Anglais** et **Japonais**.
+- 🗺 **Lien direct vers Google Maps** pour l'itinéraire en utilisant la position actuelle de l'utilisateur.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Technologies utilisées
 
-## Learn More
+- React.js
+- CSS3 (variables CSS personnalisées)
+- Git & GitHub
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## À venir
+- Ajout d'un panneau d'administration pour gérer les menus et les annonces.
+- Intégration de nouveaux articles de blog.
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Installation
 
-### Analyzing the Bundle Size
+Clonez ce dépôt puis installez les dépendances :
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```bash
+git clone https://github.com/tonpseudo/react-restaurant.git
+cd react-restaurant
+npm install
+npm start
+```
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Auteur
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Développé par **Adenan Khachnane**.
