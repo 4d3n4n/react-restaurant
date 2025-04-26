@@ -95,3 +95,11 @@ ul li {
 p, a, div, li, span, section, h1, h2, h3, h4, h5, h6, div, strong, button {
   transition: all 0.3s ease;
 }
+
+i,
+.fa {
+  font-family: "FontAwesome" !important;
+  font-style: normal;
+  font-weight: normal;
+  transition: all 0.3s ease;
+}

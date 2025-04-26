@@ -154,10 +154,13 @@ export default {
                 },
                 content: {
                     fr: "Découvrez notre menu dégustation (Omakase) à partir de 33 000 ¥, taxes et service inclus. Ce tarif est donné à titre indicatif et peut varier durant les fêtes de fin d’année ou selon la disponibilité des produits. Toute annulation effectuée l’avant-veille, la veille ou le jour même sera facturée à 100 %. Merci de votre compréhension.",
-
                     en: "Explore our Omakase course starting from ¥33,000, tax and service included. Please note that this price is indicative and may vary during holiday periods or based on ingredient availability. Cancellations made two days before, the day before, or on the same day will be charged 100%. Thank you for your understanding.",
-
                     ja: "おまかせコースは33,000円から（税込・サービス料込み）ご用意しております。金額は目安であり、年末年始や仕入れ状況により変更となる場合がございます。前々日・前日・当日のキャンセルは100％の料金を頂戴いたします。あらかじめご了承ください。"
+                },
+                capacity: {
+                    fr: "Capacité totale : 7 places au comptoir",
+                    en: "Total capacity: 7 counter seats",
+                    ja: "総席数：カウンター7席"
                 },
             },
         },
@@ -235,9 +238,16 @@ export default {
                 }
             },
             address: {
-                fr: "Japon, 〒106-0031 Tokyo, Minato City, Nishiazabu, 4 Chome−1−15 セブン西麻布 B1F",
-                en: "Japan, 〒106-0031 Tokyo, Minato City, Nishiazabu, 4 Chome−1−15 Seven Nishiazabu B1F",
-                ja: "日本, 〒106-0031 東京都港区西麻布4丁目1-15 セブン西麻布B1F"
+                title: {
+                    fr: "Adresse et horaires",
+                    en: "Address & Hours",
+                    ja: "住所と営業時間"
+                },
+                content: {
+                    fr: "Japon, 〒106-0031 Tokyo, Minato City, Nishiazabu, 4 Chome−1−15 セブン西麻布 B1F",
+                    en: "Japan, 〒106-0031 Tokyo, Minato City, Nishiazabu, 4 Chome−1−15 Seven Nishiazabu B1F",
+                    ja: "日本, 〒106-0031 東京都港区西麻布4丁目1-15 セブン西麻布B1F"
+                }
             },
             hours: {
                 fr: [
@@ -289,15 +299,36 @@ export default {
         },
         announcements: {
             title: {
-                fr: "Annonces et Événements",
-                en: "Announcements & Events",
-                ja: "お知らせとイベント"
+                fr: 'Annonces et Événements',
+                en: 'Announcements & Events',
+                ja: 'お知らせとイベント'
             },
             content: {
-                fr: "Restez informé de nos soirées à thème, menus spéciaux et actualités du restaurant.",
-                en: "Stay informed about our themed nights, special menus, and restaurant news.",
-                ja: "テーマ別の夜会、スペシャルメニュー、レストランの最新情報をお届けします。"
+                fr: 'Restez informé de nos soirées à thème, menus spéciaux et actualités du restaurant.',
+                en: 'Stay informed about our themed nights, special menus, and restaurant news.',
+                ja: 'テーマ別の夜会、スペシャルメニュー、レストランの最新情報をお届けします。'
+            },
+            fullTime: {
+                fr: { role: 'Apprenti Itamae', salary: '¥250 000', details: 'Couverture sociale complète' },
+                en: { role: 'Apprentice Itamae', salary: '¥250,000', details: 'Social insurance included' },
+                ja: { role: '板前見習い', salary: '25万円〜', details: '社会保険完備' }
+            },
+            partTime: {
+                fr: { role: 'Personnel de salle (anglais conversationnel)', salary: '¥1 600/h', details: 'Horaires 17:30–24:00, repas inclus' },
+                en: { role: 'Floor Staff (conversational English)', salary: '¥1,600/hr', details: 'Shifts 17:30–24:00, staff meal provided' },
+                ja: { role: 'ホールスタッフ（英会話可能）', salary: '時給1,600円〜', details: '17時30分〜24時、賄いまたは食事代有り' }
+            },
+            note: {
+                fr: "Horaires et salaires négociables. Postulez dès maintenant !",
+                en: "Shifts and salaries negotiable. Apply anytime!",
+                ja: "シフトや給与は相談の上決定。ご応募お待ちしております。"
+            },
+            contact: {
+                fr: "Candidature & infos : Sushi Shō Masa – 03-3499-9178 (mentionnez le site)",
+                en: "To apply/inquire: Sushi Shō Masa – 03-3499-9178 (mention website)",
+                ja: "ご応募・お問い合わせ：すし匠まさ – 03-3499-9178（ホームページを見たとお伝えください）"
             }
-        }
+        },
+
     }
 };

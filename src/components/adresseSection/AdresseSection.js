@@ -16,8 +16,8 @@ export default function AdresseSection() {
                 <GoogleMap />
             </div>
             <div className='info-card'>
-                <h2 className="adresse-title">{contact.title[t]}</h2>
-                <p className="adresse-text">{contact.address[t]}</p>
+                <h2 className="adresse-title">{contact.address.title[t]}</h2>
+                <p className="adresse-text">{contact.address.content[t]}</p>
                 <ul className="hours-list">
                     {contact.hours[t].map((line, idx) => (
                         <li key={idx} className="hour-item">{line}</li>

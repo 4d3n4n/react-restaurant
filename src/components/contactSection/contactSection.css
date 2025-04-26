@@ -31,12 +31,11 @@
 
 .contact-section .contact-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
     gap: 30px;
     height: 100%;
-    width: 700px;
     padding: 100px 0 0 0;
 }
 
@@ -60,58 +59,21 @@
 }
 
 
-/* contact */
-.contact-section .info-card .contact-title {
+/* Form */
+.contact-section .form-card {
+    height: 100%;
+    width: 500px;
+}
+
+.contact-section .form-card .contact-title {
     position: relative;
     z-index: 2;
     font-size: 2rem;
     transition: all 0.3s ease;
 }
 
-.contact-section .info-card .contact-adress {
-    position: relative;
-    z-index: 2;
-    font-weight: bold;
-    font-size: 1rem;
-    line-height: 1.4;
-    transition: all 0.3s ease;
-}
-
-.contact-section .info-card .hours-list {
-    position: relative;
-    z-index: 2;
-    list-style: none;
-    padding: 0;
-    max-width: 400px;
-    text-align: left;
-    transition: all 0.3s ease;
-}
-
-.contact-section .info-card .hour-item {
-    font-size: 0.9rem;
-    margin-bottom: 0.5rem;
-    padding: 4px 8px;
-    border-radius: 8px;
-    background-color: var(--blurry-bg-color);
-    width: fit-content;
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
-.contact-section .info-card .hour-item:hover {
-    font-weight: bold;
-}
-
-.contact-section .info-card .hour-item:nth-child(3) {
-    background-color: var(--button-bg-hover);
-    color: var(--bg-color);
-}
-
-/* Form */
-.contact-section .form-card {
-    height: 100%;
-}
-
 .contact-section .form-card .contact-text {
+    text-align: justify;
     transition: all 0.3s ease;
 }
 
@@ -151,4 +113,83 @@
 
 .contact-section .contact-form button:hover {
     opacity: 0.8;
+}
+
+
+
+
+/* adress */
+.contact-section .info-card {
+    width: 426px;
+}
+
+.contact-section .info-card .adresse-title {
+    position: relative;
+    z-index: 2;
+    font-size: 2rem;
+    transition: all 0.3s ease;
+}
+
+.contact-section .info-card .adresse-text {
+    position: relative;
+    z-index: 2;
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 1.4;
+    transition: all 0.3s ease;
+}
+
+.contact-section .info-card .hours-list {
+    position: relative;
+    z-index: 2;
+    list-style: none;
+    padding: 0;
+    max-width: 400px;
+    text-align: left;
+    transition: all 0.3s ease;
+}
+
+.contact-section .info-card .hour-item {
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+    padding: 4px 8px;
+    border-radius: 8px;
+    background-color: var(--blurry-bg-color);
+    width: fit-content;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.contact-section .info-card .hour-item:hover {
+    font-weight: bold;
+}
+
+.contact-section .info-card .hour-item:nth-child(3) {
+    background-color: var(--button-bg-hover);
+    color: var(--bg-color);
+}
+
+.contact-section .access-container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 15px;
+    border-radius: 20px;
+    border: 3px solid var(--text-color);
+}
+
+.contact-section .access-container i {
+    color: var(--text-color);
+    font-size: 20px;
+}
+
+.contact-section .access-container ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    font-weight: bold;
+    text-align: justify;
 }

@@ -1,13 +1,15 @@
 .cta-section {
     margin: 30px 0;
-    height: 700px;
+    min-height: 720px;
+    height: auto;
     position: relative;
     border-radius: 70px;
     overflow: hidden;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: flex-start;
+    align-items: stretch; /* ✅ important ici */
+
     gap: 30px;
     transition: all 0.3s ease;
 }
@@ -15,7 +17,7 @@
 .carousel-container {
     position: relative;
     width: 50%;
-    height: 100%;
+    height: auto; /* ✅ auto pour grandir avec le parent */
     border-radius: 70px;
     object-fit: cover;
     display: flex;
@@ -36,7 +38,8 @@
     padding: 30px;
     background-color: var(--blurry-bg-color);
     flex: 1;
-    min-height: 100%;
+    height: auto;
+    min-height: fit-content;
     transition: all 0.3s ease;
 }
 
@@ -96,14 +99,64 @@
     transition: all 0.3s ease;
 }
 
-.cta-infos .desc {
-    font-size: 1.5rem;
-    font-weight: 400;
-    color: var(--text-color);
-    text-align: center;
-    text-align: justify;
+.cta-infos .cta-reassurance {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
     padding: 20px 0;
     border-top: 3px solid var(--text-color);
     border-bottom: 3px solid var(--text-color);
     transition: all 0.3s ease;
+}
+
+.cta-infos .cta-reassurance .desc {
+    font-size: 17px;
+    font-weight: 400;
+    color: var(--text-color);
+    text-align: center;
+    text-align: justify;
+    padding: 0 0 20px 0;
+    border-bottom: 3px solid var(--text-color);
+    transition: all 0.3s ease;
+}
+
+.cta-infos .payment-logos {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    transition: all 0.3s ease;
+}
+
+.cta-infos .payment-logos img {
+    height: 18px;
+}
+
+.cta-infos .capacity-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-color: var(--text-color);
+    transition: all 0.3s ease;
+}
+
+.cta-infos .capacity-container i {
+    color: var(--button-bg);
+    font-size: 18px;
+    transition: all 0.3s ease;
+}
+
+.cta-infos .capacity-container .capacity {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: var(--button-bg);
 }
