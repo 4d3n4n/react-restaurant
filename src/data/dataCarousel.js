@@ -1,7 +1,7 @@
 import b3 from '../assets/b3.jpg';
 import b4 from '../assets/b4.jpg';
 import b5 from '../assets/b5.jpg';
-import b6 from '../assets/b5.jpg';
+import b6 from '../assets/b6.jpg';
 
 const idImgB1 = "idImgB1";
 const idImgB2 = "idImgB2";

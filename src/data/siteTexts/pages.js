@@ -1,61 +1,8 @@
 export default {
-    carousel: {
-        slide1: {
-            title: {
-                fr: "Bienvenue chez Sushi Zen",
-                en: "Welcome to Sushi Zen",
-                ja: "寿司禅へようこそ"
-            },
-            subtitle: {
-                fr: "Savourez l'authenticité et la passion de la cuisine japonaise.",
-                en: "Savor the authenticity and passion of Japanese cuisine.",
-                ja: "日本料理の本物の魅力と情熱を味わってください。"
-            },
-            button: {
-                fr: "Réserver une table",
-                en: "Book a Table",
-                ja: "テーブルを予約する"
-            }
-        },
-        slide2: {
-            title: {
-                fr: "Excellence Culinaire",
-                en: "Culinary Excellence",
-                ja: "料理の卓越性"
-            },
-            subtitle: {
-                fr: "Des ingrédients frais, un savoir-faire unique.",
-                en: "Fresh ingredients, unique expertise.",
-                ja: "新鮮な食材と独自の技が息づく料理。"
-            },
-            button: {
-                fr: "Voir notre carte",
-                en: "View Our Menu",
-                ja: "メニューを見る"
-            }
-        },
-        slide3: {
-            title: {
-                fr: "Ambiance Conviviale",
-                en: "Warm Ambiance",
-                ja: "温かい雰囲気"
-            },
-            subtitle: {
-                fr: "Un cadre moderne respectant les traditions japonaises.",
-                en: "A modern setting honoring Japanese traditions.",
-                ja: "日本の伝統を尊重するモダンな空間。"
-            },
-            button: {
-                fr: "Notre histoire",
-                en: "Our Story",
-                ja: "私たちの歴史"
-            }
-        }
-    },
     pages: {
         home: {
             title: {
-                fr: "Bienvenue chez Sushi",
+                fr: "Bienvenue chez",
                 en: "Welcome to",
                 ja: " へようこそ"
             },
@@ -163,6 +110,47 @@ export default {
                     ja: "総席数：カウンター7席"
                 },
             },
+            blogSection: {
+                title: {
+                    fr: "NEWS",
+                    en: "NEWS",
+                    ja: "お知らせ"
+                },
+                posts: [
+                    {
+                        date: "2024-12-16",
+                        title: {
+                            fr: "2025年3月のお席のご予約開始時期につ…",
+                            en: "Opening dates for March 2025 reservations…",
+                            ja: "2025年3月のお席のご予約開始時期につ…"
+                        },
+                        link: "https://www.sushisyomasa.com/fcblog/150125.html"
+                    },
+                    {
+                        date: "2024-10-04",
+                        title: {
+                            fr: "【当店のご予約について】Informat…",
+                            en: "About our reservation policy: Informat…",
+                            ja: "【当店のご予約について】Informat…"
+                        },
+                        link: "https://www.sushisyomasa.com/fcblog/146254.html"
+                    },
+                    {
+                        date: "2024-06-03",
+                        title: {
+                            fr: "2024年8月のご予約(Reserve)…",
+                            en: "Reservations for August 2024 (Reserve)…",
+                            ja: "2024年8月のご予約(Reserve)…"
+                        },
+                        link: "https://www.sushisyomasa.com/fcblog/139651.html"
+                    }
+                ],
+                more: {
+                    fr: "Voir toutes les annonces",
+                    en: "View all news",
+                    ja: "お知らせ一覧"
+                }
+            }
         },
         menu: {
             title: { fr: "Notre Carte", en: "Our Menu", ja: "私たちのメニュー" },
@@ -329,6 +317,5 @@ export default {
                 ja: "ご応募・お問い合わせ：すし匠まさ – 03-3499-9178（ホームページを見たとお伝えください）"
             }
         },
-
     }
 };

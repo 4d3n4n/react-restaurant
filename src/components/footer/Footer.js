@@ -8,21 +8,24 @@ import './footer.css';
 const Footer = () => {
     const { lang } = useContext(LangContext);
     const t = lang.toLowerCase();
-    const { text, social } = footerTexts;
+    const footer = footerTexts;
 
     return (
         <footer className="app-footer">
-            <p>{text[t]}</p>
             <div className="socials">
-                <a className='xBtn'>
+                <a className='xBtn' target="_blank" rel="noopener noreferrer">
                     <img src={x} alt="x" />
-                    {social.x[t]}
+                    {footer.social.x[t]}
                 </a>
-                <a className='lineBtn'>
+                <a className='lineBtn' target="_blank" rel="noopener noreferrer">
                     <img src={line} alt="line" />
-                    {social.line[t]}
+                    {footer.social.line[t]}
                 </a>
             </div>
+            <p>
+                {footer.text[t]}
+                <a href='https://adenan.xyz/' target="_blank" rel="noopener noreferrer">{footer.credit[t]}</a>
+            </p>
         </footer>
     );
 };

@@ -23,7 +23,7 @@ export default function ProductCard({ product }) {
 
                 <div className="product-details">
                     <div className="ingredients">
-                        <strong>{allergens[t]}</strong>
+                        <strong>{ingredients[t]}</strong>
                         <ul>
                             {data.ingredients.map((ing, i) => (
                                 <li key={i}>{ing}</li>
@@ -33,7 +33,7 @@ export default function ProductCard({ product }) {
 
                     {data.allergenes?.length > 0 && (
                         <div className="allergenes">
-                            <strong>{ingredients[t]}</strong>
+                            <strong>{allergens[t]}</strong>
                             <ul>
                                 {data.allergenes.map((a, i) => (
                                     <li key={i}>{a}</li>

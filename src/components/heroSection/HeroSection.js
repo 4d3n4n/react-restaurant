@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import { LangContext } from '../../context/LangContext';
-import Slider from '../slider/Slider';
+// import Slider from '../slider/Slider';
 import Button from '../button/Button';
 import pageTexts from '../../data/siteTexts/pages';
 import rev1 from '../../assets/rev1.jpg';
@@ -8,6 +8,7 @@ import rev2 from '../../assets/rev2.jpg';
 import rev3 from '../../assets/rev3.jpg';
 import rev4 from '../../assets/rev4.jpg';
 import googleLogo from '../../assets/googleLogo.png';
+import hpBgVideo from '../../assets/hpBgVideo.webp';
 import './heroSection.css';
 
 export default function HeroSection() {
@@ -17,7 +18,13 @@ export default function HeroSection() {
 
     return (
         <section className="hero-section">
-            <Slider />
+            {/* <Slider /> */}
+            <img
+                className="hpBgVideo"
+                src={hpBgVideo}
+                alt="Background"
+                loading="lazy"
+            />
             <div className="hero-content">
                 <div className="left-container">
                     {t === 'ja'

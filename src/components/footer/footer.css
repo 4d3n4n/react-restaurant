@@ -2,7 +2,6 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    gap: 20px;
     align-items: center;
     justify-content: center;
     padding: 12px;
@@ -17,15 +16,8 @@
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* copyright */
-.app-footer p {
-    font-size: 0.9rem;
-    opacity: 0.8;
-}
-
-
 /* social */
-.socials {
+.app-footer .socials {
     position: relative;
     display: flex;
     gap: 20px;
@@ -34,15 +26,15 @@
     width: fit-content;
 }
 
-.infosContact .infosTel {
+.app-footer .infosContact .infosTel {
     text-transform: uppercase;
     font-weight: bold;
     font-size: 13px;
     transition: color 0.3s ease;
 }
 
-.xBtn,
-.lineBtn {
+.app-footer .xBtn,
+.app-footer .lineBtn {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -56,16 +48,39 @@
     color: #fff;
     background: #000;
 }
-.lineBtn {
+.app-footer .lineBtn {
     background: #05c755;
 }
 
-.xBtn img,
-.lineBtn img {
+.app-footer .xBtn img,
+.app-footer .lineBtn img {
     height: 18px;
     margin-right: 10px;
 }
-.xBtn img {
+.app-footer .xBtn img {
     height: 14px;
     filter: invert(1);
+}
+
+
+
+/* copyright */
+.app-footer p {
+    padding-top: 12px;
+    margin-top: 12px;
+    border-top: 2px solid var(--line-color);
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.app-footer p a {
+    color: var(--bg-color);
+    padding: 3px 8px;
+    border-radius: 20px;
+    background: var(--text-color);
+    margin-left: 10px;
 }

@@ -7,6 +7,7 @@
   --pill-bg-color: #ddd;
   --button-bg: #ddd;
   --button-bg-hover: #333;
+  --line-color: #33333355;
   --invert: invert(100%);
   --invert-hover: invert(0%);
   --gradient: linear-gradient(to bottom, #ddd 20%, transparent 50%, transparent 100%);
@@ -21,6 +22,7 @@
   --pill-bg-color: #333;
   --button-bg: #333;
   --button-bg-hover: #ddd;
+  --line-color: #dcdcdc5b;
   --invert: invert(0%);
   --invert-hover: invert(100%);
   --gradient: linear-gradient(to bottom, #333 20%, transparent 40%, transparent 100%);

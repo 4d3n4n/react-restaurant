@@ -1,8 +1,13 @@
 export default {
     text: {
-        fr: '© 2025 Sushi Zen. Tous droits réservés.',
-        en: '© 2025 Sushi Zen. All rights reserved.',
-        ja: '© 2025 寿司禅。全著作権所有。',
+        fr: '© 2025 Sushi Shō Masa.',
+        en: '© 2025 Sushi Shō Masa.',
+        ja: '© 2025 すし匠 まさ。'
+    },
+    credit: {
+        fr: 'Conçu et développé par Adenan K. Tous droits réservés.',
+        en: 'Designed and developed by Adenan K. All rights reserved.',
+        ja: 'デザイン・開発：Adenan K. 全著作権所有。'
     },
     social: {
         x: {

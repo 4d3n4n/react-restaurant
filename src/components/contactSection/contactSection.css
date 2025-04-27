@@ -58,18 +58,22 @@
     transition: all 0.3s ease;
 }
 
+.contact-section .form-card .contact-title,
+.contact-section .info-card .adresse-title {
+    position: relative;
+    z-index: 2;
+    font-size: 1.9rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: var(--text-color);
+    transition: all 0.3s ease;
+}
+
 
 /* Form */
 .contact-section .form-card {
     height: 100%;
     width: 500px;
-}
-
-.contact-section .form-card .contact-title {
-    position: relative;
-    z-index: 2;
-    font-size: 2rem;
-    transition: all 0.3s ease;
 }
 
 .contact-section .form-card .contact-text {
@@ -123,13 +127,6 @@
     width: 426px;
 }
 
-.contact-section .info-card .adresse-title {
-    position: relative;
-    z-index: 2;
-    font-size: 2rem;
-    transition: all 0.3s ease;
-}
-
 .contact-section .info-card .adresse-text {
     position: relative;
     z-index: 2;
@@ -174,14 +171,11 @@
     gap: 10px;
     justify-content: center;
     align-items: flex-start;
-    padding: 15px;
-    border-radius: 20px;
-    border: 3px solid var(--text-color);
 }
 
 .contact-section .access-container i {
     color: var(--text-color);
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .contact-section .access-container ul {
@@ -190,6 +184,10 @@
     justify-content: flex-start;
     align-items: flex-start;
     gap: 10px;
+    font-size: 15px;
     font-weight: bold;
     text-align: justify;
+    padding: 15px;
+    border-radius: 20px;
+    border: 3px solid var(--text-color);
 }
