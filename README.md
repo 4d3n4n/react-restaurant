@@ -5,6 +5,12 @@
 ![Dark Mode](https://img.shields.io/badge/Dark%20Mode-Enabled-000000)
 
 
+## 📽️ Démo
+<video src="https://github.com/user-attachments/assets/b974673c-37ed-436c-8b12-2743e14c6888" controls width="600">
+  Your browser does not support the video tag.
+</video>
+
+
 ## Présentation
 
 **React Restaurant Showcase** est un site vitrine développé en **React.js**, conçu spécialement pour les **restaurants** qui souhaitent présenter leur activité de manière élégante, multilingue et moderne.
